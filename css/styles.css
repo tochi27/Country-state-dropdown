@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+main{
+    background-color: #1e1e1e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: burlywood;
+    height: 15rem;
+    width: 50rem;
+    border-radius: 2rem;
+}
+
+select{
+    outline: none;
+    border-radius: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+label{
+    font-family: monospace;
+    font-size: 1rem;
+}
